@@ -56,7 +56,7 @@ header .containerPulsante{
     text-align: right;
 }
 
-/* jumbotron section */
+
 .jumbotron{
     position: relative;
 }
@@ -78,7 +78,7 @@ header .containerPulsante{
     font-size: 25px;
     margin: 50px 0; 
 }
-/* pulsanti jumbotron */
+
 .blocco2 .containerPulsante{
     font-size: 25px;
     display: inline-block;
@@ -103,4 +103,66 @@ header .containerPulsante{
 #white{
     background-color: rgb(35,39,42);
     color: white;
+}
+
+/* sezioni main */
+main section:nth-child(even){
+    background-color: rgb(238, 238, 238);
+}
+main section{
+    height: 100vh;
+    padding: 25vh 0;
+}
+.containerIMGeTXT{
+    font-size: 30px;
+}
+.containerIMG{
+    float: left;
+}
+.containerTXT{
+    float: right;
+    width:25%;
+}
+.containerTXT p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+/* img e testo invertiti */
+.reverseIMG{
+    float: right;
+}
+.reverseTXT{
+    float: left;
+    width:25%;
+}
+/* ultima sezione prima del footer */
+.pre-footer{
+    height: 180vh;
+}
+.verticale{
+    text-align: center;
+}
+.verticale p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.verticale img{
+    width: 100%;
+}
+.containerIMGeTXT h3{
+    text-align: center;
+}
+.stelle{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.containerIMGeTXT .containerPulsante{
+    text-align: center;
+    margin: 70px;
+}
+.containerIMGeTXT .scarica{
+    background-color: #8ea1e1;
+    color:white;
+    font-size: 20px;
 }
