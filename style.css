@@ -21,8 +21,10 @@ a{
     text-decoration: none;
     color: white;
 }
+
 .containerPulsante a{
     color: rgb(35,39,42);
+    
 }
 .pulsante{
     background-color: aliceblue;
@@ -52,4 +54,53 @@ header .containerPulsante{
     width: calc(100% / 3 - 50px);
     line-height: 37px;
     text-align: right;
+}
+
+/* jumbotron section */
+.jumbotron{
+    position: relative;
+}
+.jumbotron img{ 
+    max-width: 100%;
+    height: auto;
+}
+.blocco2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.blocco2 p{
+    font-size: 25px;
+    margin: 50px 0; 
+}
+/* pulsanti jumbotron */
+.blocco2 .containerPulsante{
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+.boxPulsante{
+    display: flex;
+    float: left;
+}
+
+
+.scarica, .browser{
+    padding: 20px 40px;
+}
+.scarica i{
+    padding-right: 10px;
+}
+.scarica{
+    margin-right: 30px;
+}
+#white{
+    background-color: rgb(35,39,42);
+    color: white;
 }
