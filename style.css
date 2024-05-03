@@ -87,12 +87,12 @@ header .containerPulsante{
 
 .boxPulsante{
     display: flex;
-    float: left;
 }
 
 
 .scarica, .browser{
     padding: 20px 40px;
+    display: inline-block;
 }
 .scarica i{
     padding-right: 10px;
